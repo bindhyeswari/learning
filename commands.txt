@@ -498,3 +498,503 @@
   518  history
   519  clear
   520  history >> commands.txt
+   55  ls
+   56  cd golivelabs-new
+   57  clear
+   58  ls
+   59  open .
+   60  cd ~/Web*
+   61  cd golivelabs-new
+   62  ls
+   63  clear
+   64  open .
+   65  open .
+   66  open .
+   67  cd ~/desktop
+   68  mkdir resumePage
+   69  cd resumePage
+   70  git init
+   71  ls
+   72  git commit -m 'test'
+   73  git add .
+   74  git commit -m 'test'
+   75  git remote add github git@github.com:pvtech/resumePage.git
+   76  git push github master
+   77  cd ..
+   78  cd delet
+   79  cd delete
+   80  mkdir delete
+   81  cd delete
+   82  clear
+   83  ls
+   84  clear
+   85  git clone git@github.com:pvtech/resumePage.git
+   86  ls
+   87  mkdir test
+   88  cd resumePage
+   89  mv * ../test
+   90  cd ..
+   91  cd test
+   92  ls
+   93  cd css
+   94  ls
+   95  cd ..
+   96  ls -artl
+   97  clear
+   98  cd ..
+   99  ls
+  100  rm -rf *
+  101  clear
+  102  ls
+  103  touch script
+  104  open .
+  105  chmod 777 script
+  106  ./script
+  107  ls
+  108  curl http://code.jquery.com/jquery-1.11.0.js
+  109  curl http://code.jquery.com/jquery-1.11.0.js > js/jquery.js
+  110  open .
+  111  cd ..
+  112  clear
+  113  ls
+  114  cd delete
+  115  clear
+  116  ls
+  117  rm -rf *
+  118  clear
+  119  touch script
+  120  open .
+  121  chmod script
+  122  chmod 777 script
+  123  ./script
+  124  clear
+  125  ls
+  126  cd js
+  127  ls
+  128  cat jquery.js
+  129  cd ~/desktop
+  130  cd resumePage
+  131  clear
+  132  ls
+  133  touch script.txt
+  134  git add .
+  135  git commit -m 'script.txt'
+  136  git push github master
+  137  cd desktop
+  138  ls
+  139  cd delete
+  140  clear
+  141  ls
+  142  touch example.py
+  143  open .
+  144  2to3 example.py
+  145  clear
+  146  ls
+  147  cat example.py
+  148  clear
+  149  python --version
+  150  cd ~/downloads
+  151  cd youtube-dl
+  152  clear
+  153  ./dl function(city_name, state_code) {
+  154      request("http://api.sba.gov/geodata/all_links_for_city_of/sunnyvale/ca32.json", function(error, response, body){
+  155          var obj;
+  156          try {
+  157              obj = JSON.parse(body);
+  158              return obj;
+  159          } catch (e) {
+  160              if (e.type == 'unexpected_token');                 return null;         }
+  161      });
+  162  open .
+  163  clear
+  164  ls
+  165  ./dl https://www.youtube.com/watch?v=1qsgBF7ZIsk
+  166  ./dl https://www.youtube.com/watch?v=Pt0nqbSJiEE
+  167  ./dl https://www.youtube.com/watch?v=KFSTi17tnxk
+  168  open .
+  169  cd work
+  170  ls
+  171  clear
+  172  cd desktop
+  173  la
+  174  ls
+  175  clear
+  176  ls
+  177  clear
+  178  cd deskto[
+  179  cd desktop
+  180  clear
+  181  ls
+  182  clear
+  183  mkdir angular
+  184  cd angular
+  185  clear
+  186  ls
+  187  cd ~/desktop/AngularJS
+  188  cd ~/desktop/work/AngularJS
+  189  clear
+  190  npm install request
+  191  npm install jsdom
+  192  clear
+  193  open .
+  194  pip --version
+  195  cd ~/desktop
+  196  mkdir kartograph
+  197  cd kartograph
+  198  clear
+  199  pip install virtualenv
+  200  sudo pip install virtualenv
+  201  clear
+  202  ls
+  203  virtualenv --version
+  204  sudo pip install -r https://raw.github.com/kartograph/kartograph.py/master/requirements.txt
+  205  pip install https://github.com/kartograph/kartograph.py/zipball/master
+  206  sudo pip install https://github.com/kartograph/kartograph.py/zipball/master
+  207  wget http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/50m/cultural/ne_50m_admin_0_countries.zip
+  208  unzip ne_50m_admin_0_countries.zip
+  209  curl wget http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/50m/cultural/ne_50m_admin_0_countries.zip
+  210  unzip ne_50m_admin_0_countries.zip
+  211  clear
+  212  ls
+  213  curl  http://www.naturalearthdata.com/http//www.naturalearthdata.com/download/50m/cultural/ne_50m_admin_0_countries.zip
+  214  ls
+  215  ls a-rtl
+  216  ls -artl
+  217  open .
+  218  ls
+  219  cat > {
+  220  clear
+  221  ls
+  222  touch world.json
+  223  open .
+  224  ls
+  225  kartograph --version
+  226  kartograph world.json -o world.svg
+  227  clear
+  228  sudo pip install -r https://raw.github.com/kartograph/kartograph.py/master/requirements.txt
+  229  sudo pip install -r https://raw.github.com/kartograph/kartograph.py/master/requirements.txt
+  230  gdal
+  231  export PYTHONPATH=$PYTHONPATH:/Library/Frameworks/GDAL.framework/Versions/1.9/Python/2.7/site-packages
+  232  sudo pip install -r https://raw.github.com/kartograph/kartograph.py/master/requirements-nogdal.txt
+  233  ls
+  234  clear
+  235  sudo pip install https://github.com/kartograph/kartograph.py/zipball/master
+  236  wget
+  237  ls
+  238  kartograph world.json -o world.svg
+  239  cat world.svg
+  240  clear
+  241  ls
+  242  ls -lah
+  243  clear
+  244  ls
+  245  clear
+  246  clear
+  247  ls
+  248  ls
+  249  cd ~/desktop
+  250  cd work
+  251  ls
+  252  cd golivelabs-staging
+  253  clear
+  254  ls
+  255  cd ..
+  256  clear
+  257  ls
+  258  cp golivelabs-staging golivelabs-sonal
+  259  cp golivelabs-staging/* golivelabs-sonal
+  260  cp -r golivelabs-staging/* golivelabs-sonal
+  261  clear
+  262  open .
+  263  ls
+  264  clear
+  265  open .
+  266  clear
+  267  cd work
+  268  cd ~/desktop/work
+  269  clear
+  270  ls
+  271  git add .
+  272  cd golivelabs-staging
+  273  git add .
+  274  git commit -m 'consulting'
+  275  clear
+  276  ls
+  277  git push production master
+  278  git add .
+  279  git commit -m 'consulting'
+  280  git push production master
+  281  git add .
+  282  git commit -m 'consulting'
+  283  git push production master
+  284  git add .
+  285  git commit -m 'consulting'
+  286  git push production master
+  287  git add .
+  288  git commit -m 'consulting'
+  289  git push production master
+  290  clear
+  291  cd ~/desktop
+  292  clear
+  293  ls
+  294  cd delete
+  295  clear
+  296  ls
+  297  clear
+  298  pwd
+  299  clear
+  300  git init
+  301  git add .
+  302  git commit -m 'comprehesive'
+  303  git remote add origin git@github.com:pvtech/generic.git
+  304  git push origin master
+  305  clear
+  306  cd ~/desktop
+  307  clear
+  308  ls
+  309  clear
+  310  mkdir delete
+  311  cd delete
+  312  rm -rf *
+  313  clear
+  314  pwd
+  315  ls
+  316  mkdir test
+  317  cd test
+  318  clear
+  319  ls
+  320  pwd
+  321  ls
+  322  touch app.js
+  323  open .
+  324  clear
+  325  cat app.js
+  326  clear
+  327  npm install express
+  328  clear
+  329  ls
+  330  node app.js
+  331  cd ~/desktop
+  332  touch launch_terminal
+  333  open .
+  334  chmod 777 launch_terminal
+  335  mv launch_terminal lt
+  336  ./lt
+  337  pwd
+  338  pwd
+  339  cat app.js
+  340  clear
+  341  open .
+  342  pwd
+  343  ls
+  344  node app.js
+  345  cd ~/desktop/work
+  346  cd golivelabs-staging
+  347  clear
+  348  ls
+  349  git add .
+  350  git commit -a -m 'home button bacl'
+  351  git push production master
+  352  git push heroku master
+  353  cleawr
+  354  ls
+  355  clear
+  356  ls
+  357  cd desktop
+  358  cd golivelabs-staging
+  359  clear
+  360  ls
+  361  clear
+  362  ls
+  363  pwd
+  364  cd work
+  365  cd golivelabs-staging
+  366  cle3art
+  367  clear
+  368  ls
+  369  ls
+  370  clear
+  371  ls
+  372  git commit -a -m 'changes'
+  373  git push production master
+  374  git commit -a -m 'changes'
+  375  git push production master
+  376  git push heroku master
+  377  clear
+  378  pwd
+  379  cd desktop
+  380  cd golivelabs-staging
+  381  cd work
+  382  pwd
+  383  cd ../delete
+  384  clear
+  385  ls
+  386  rm -rf angular_test
+  387  clear
+  388  ls
+  389  cd angular_test
+  390  clear
+  391  ls
+  392  clear
+  393  ls
+  394  ls
+  395  clear
+  396  mkdir cs js img
+  397  rm -rf cs
+  398  clear
+  399  mkdir css
+  400  clear
+  401  ls
+  402  cd js
+  403  clear
+  404  ls
+  405  clear
+  406  clear
+  407  clear
+  408  pwd
+  409  cd desktop
+  410  cd delete
+  411  cd angular-test
+  412  clear
+  413  ls
+  414  cd angular_test
+  415  clear
+  416  clear
+  417  pwd
+  418  clear
+  419  ls
+  420  pwd
+  421  npm install yo
+  422  clear
+  423  ls
+  424  clear
+  425  ls
+  426  clear
+  427  pwd
+  428  clear
+  429  clear
+  430  pwd
+  431  clear
+  432  npm install -g generator-angular
+  433  sudo npm install -g generator-angular
+  434  clear
+  435  mkdir noterious && $_
+  436  clear
+  437  pwd
+  438  mkdir notorious && cd $_
+  439  pwd
+  440  yo angular noterious
+  441  clear
+  442  grunt server
+  443  cd ..
+  444  clear
+  445  pwd
+  446  ls
+  447  ls -lah
+  448  rm -rf noterious
+  449  clear
+  450  ls -lah notorius
+  451  clear
+  452  ls
+  453  cd notorious
+  454  ls
+  455  grunt serve
+  456  grunt serve
+  457  clear
+  458  ls
+  459  clear
+  460  clear
+  461  ls
+  462  cd ..
+  463  ls
+  464  clear
+  465  clear
+  466  ls
+  467  rm -rf notorious
+  468  cd ..
+  469  clear
+  470  ls
+  471  rm -rf angular_test
+  472  clear
+  473  ls
+  474  mkdir noterious && $_
+  475  mkdir ngtest  && $_
+  476  clear
+  477  mkdir ngtest
+  478  clear
+  479  ls
+  480  rm -rf noterious ngtest
+  481  clear
+  482  ls
+  483  mkdir ngtest && $_
+  484  cd ngtest
+  485  clear
+  486  ls
+  487  rm -rf ngtest
+  488  mkdir ngtest && cd $_
+  489  clear
+  490  ls
+  491  yo angular noterious
+  492  grunt serve
+  493  grunt serve
+  494  yo angular:route main
+  495  intellij .
+  496  open -b com.jetbrains.intellij
+  497  open -b com.jetbrains.intellij
+  498  clear
+  499  open .
+  500  grunt serve
+  501  cd desktop
+  502  cd ~/desktop
+  503  clear
+  504  mkddir batch2
+  505  clear
+  506  ls
+  507  clear
+  508  clear
+  509  ls
+  510  clear
+  511  pwd
+  512  mkdir batch2
+  513  cd batch2
+  514  clear
+  515  ls
+  516  pwd
+  517  git init
+  518  history
+  519  clear
+  520  history >> commands.txt
+  521  open .
+  522  clear
+  523  ls
+  524  ls -l
+  525  clear
+  526  ls -lah
+  527  ls -a
+  528  clear
+  529  ls -lah
+  530  cd .git
+  531  cd ..
+  532  ls .git
+  533  clear
+  534  git init
+  535  rm .git
+  536  rm -rf .git
+  537  clear
+  538  git init
+  539  ls
+  540  git add .
+  541  git commit -m "added some data to commands.txt"
+  542  git config
+  543  clear
+  544  cd .git
+  545  clear
+  546  open .
+  547  clear
+  548  history >> commands.txt
+  549  clear
+  550  git commit -m 'second commit'
+  551  clear
+  552  cd ..
+  553  ls
+  554  history >>  commands.txt
